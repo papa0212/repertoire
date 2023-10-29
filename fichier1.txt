@@ -1,0 +1,29 @@
+Git - Système de Gestion de Version
+
+Git est un système de gestion de version largement utilisé dans le développement logiciel pour suivre et gérer les modifications apportées à un projet. Il permet de travailler de manière collaborative, de garder une trace de l'historique des modifications et de gérer les conflits de manière efficace. Voici quelques notions clés à connaître :
+
+1. Dépôt (Repository) : Un dépôt Git est un répertoire qui contient l'ensemble des fichiers et de l'historique des modifications de votre projet. Il peut être local (sur votre propre machine) ou distant (sur un serveur).
+
+2. Commit : Un commit est une capture instantanée de l'état de votre projet à un moment donné. Chaque commit est accompagné d'un message de description pour expliquer les modifications apportées.
+
+3. Branche (Branch) : Les branches sont des copies indépendantes du code source de votre projet. Elles permettent de travailler sur des fonctionnalités ou des corrections de bugs sans affecter la branche principale.
+
+4. Clone : Cloner un dépôt signifie créer une copie locale d'un dépôt distant, ce qui vous permet de travailler sur votre propre machine.
+
+5. Pull : La commande pull récupère les dernières modifications d'un dépôt distant et les fusionne avec votre branche locale.
+
+6. Push : La commande push envoie vos commits locaux vers un dépôt distant, mettant ainsi à jour le projet pour les autres contributeurs.
+
+7. Merge : La fusion (merge) combine les modifications de deux branches distinctes, généralement pour incorporer le travail d'une branche de fonctionnalité dans la branche principale.
+
+8. Pull Request : Une demande de tirage (Pull Request) est une fonctionnalité courante sur des plateformes telles que GitHub. Elle permet aux contributeurs de soumettre leurs modifications pour examen avant de les fusionner avec la branche principale du projet.
+
+9. Conflicts : Les conflits surviennent lorsque Git ne peut pas fusionner automatiquement deux ensembles de modifications. Vous devez alors résoudre ces conflits manuellement.
+
+10. Checkout : La commande checkout permet de passer d'une branche à une autre ou de revenir à une version précédente de votre projet.
+
+11. Staging Area : La zone de préparation (Staging Area) est l'endroit où vous placez les fichiers que vous souhaitez inclure dans votre prochain commit.
+
+12. .gitignore : Le fichier .gitignore vous permet de spécifier les fichiers et dossiers à exclure de Git, tels que les fichiers temporaires ou de configuration.
+
+Git est un outil puissant qui facilite la gestion de vos projets de développement logiciel. Il vous permet de travailler de manière collaborative, de suivre l'historique des modifications et de gérer efficacement les versions de votre code source.
